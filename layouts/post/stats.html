@@ -1,0 +1,30 @@
+<ul class="stats">
+    {{ if isset .Params "tags" }}
+    {{ $tagsLen := len .Params.tags }}
+    {{ if gt $tagsLen 0 }}
+    <li class="tags">
+        <ul>
+            {{ range $k, $v := .Params.tags }}
+            {{ $url := printf "tags/%s" (. | urlize | lower) }}
+            <li>
+                <a
+                    class="article-category-link"
+                    href="{{ $url | absLangURL }}"
+                    >{{ . }}</a
+                >
+            </li>
+            <!-- prettier-ignore -->
+            {{ end }}
+        </ul>
+    </li>
+    <!-- prettier-ignore -->
+    {{ end }}
+    {{ else }}
+    <li class="tags">
+        <ul>
+            <li>None</li>
+        </ul>
+    </li>
+    <!-- prettier-ignore -->
+    {{ end }}
+</ul>

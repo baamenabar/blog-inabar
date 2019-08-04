@@ -57,21 +57,21 @@ googleAnalytics = "UA-23469330-1"
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Code Blog"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    paragraph             = "Articles about web appplications, websites and software development in gerneral."
     rssIntro              = true
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
+      src                 = "/img/main/logo-code-medula-diseno.svg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "This is about this blog"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -151,7 +151,7 @@ googleAnalytics = "UA-23469330-1"
 [social]
   # Coding Communities
   github                = "baamenabar/codeBlog"
-  flickr                = "aamenabar"
+  flickr                = "39820277@N05"
   # Social Networks
   youtube               = "baamenabar"
   instagram             = "baamenabar"
