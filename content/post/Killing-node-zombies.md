@@ -1,6 +1,8 @@
 +++
 date = "2019-07-29T18:10:01+02:00"
 title = "Killing node zombies"
+draft = false
+tags = ["node", "shell", "linux", "ubuntu"]
 
 +++
 

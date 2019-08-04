@@ -1,5 +1,5 @@
 baseurl = "http://blog.iminabar.com/"
-author = "Agustín"
+author = "B. Agustín Amenábar L."
 title = "Code Blog"
 theme = "inkblotty"
 paginate = 30
@@ -12,9 +12,9 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-23469330-1"
 
-summaryLength=150
+summaryLength=90
 
 [permalinks]
   post = "/:slug/"

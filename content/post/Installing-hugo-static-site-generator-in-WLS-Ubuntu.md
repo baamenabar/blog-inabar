@@ -1,7 +1,8 @@
 +++
 date = "2019-07-31T20:11:06+02:00"
 title = "Installing Hugo static site generator in WLS Ubuntu"
-
+draft = true
+tags = ["ssg", "hugo",  "setup", "first-steps"]
 +++
 
 # Installing Hugo static site generator in WLS Ubuntu
