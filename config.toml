@@ -26,8 +26,7 @@ googleAnalytics = "UA-23469330-1"
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
 
   [params.meta]
     # Sets the meta tag description
@@ -46,7 +45,7 @@ googleAnalytics = "UA-23469330-1"
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Code Blog"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
@@ -56,19 +55,17 @@ googleAnalytics = "UA-23469330-1"
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Code Blog"
-    paragraph             = "Articles about web appplications, websites and software development in gerneral."
+    header                = "Dev Blog"
+    paragraph             = "Articles about web applications, websites and software development in general."
     rssIntro              = true
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/logo-code-medula-diseno.svg"
-      # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
-      shape               = "circle"
-      width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      src                 = "/img/main/iminabar-logo-and-slogan.svg"
+      width               = "104"
+      alt                 = "I'm in a bar logo. This is how my last name is pronounced"
 
   [params.sidebar]
     about               = "This is about this blog"
@@ -121,16 +118,10 @@ googleAnalytics = "UA-23469330-1"
     weight            = 2
 
   [[menu.main]]
-    name              = "Blog"
-    url               = "/blog/"
+    name              = "CV"
+    url               = "https://iminabar.com"
     identifier        = "far fa-newspaper"
     weight            = 3
-
-  [[menu.main]]
-    name              = "Categories"
-    url               = "/categories/"
-    identifier        = "fas fa-sitemap"
-    weight            = 5
 
   [[menu.main]]
     name              = "Contact"

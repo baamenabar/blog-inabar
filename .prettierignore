@@ -1,0 +1,3 @@
+# Because prettier has basically 0 support for HUGO templates
+layouts/partials/head.html
+layouts/partials/site-header.html
