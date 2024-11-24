@@ -1,19 +1,15 @@
 ---
 title: Cómo actualizar Drupal Core usando linea de comando\
-subtitle: Lista de comandos para hacer copy paste y una pequeña explicación de cómo funciona el proceso.\
+summary: "Lista de comandos para hacer copy paste y una pequeña explicación de cómo funciona el proceso."
 classes: language-php\
 date: 2013-04-18T20:40:04
+tags: ["php", "drupal", "short"]
 ---
 
-<header>
-<hgroup>
-Actualizar Drupal usando SSH
-============================
+# Actualizar Drupal usando SSH
 
 ## Lista de comandos para hacer copy paste y una pequeña explicación.
 
-</hgroup>
-</header>
 Muchas veces es una lata descargar un archivo, descomprimirlo, subirlo por FTP, arrastrar archivos y carpetas de un lado para otro para actualizar el core de Drupal 7. Y como dicen que un buen programador es flojo, pues aquí pego la secuencia de comandos que uso para respaldar y actualizar el core de Drupal 7, usando SSH.
 
 ## _<span lang="fr">Mise en place</span>_ {#ac2}
@@ -26,7 +22,7 @@ Lo que debes tener es:
 
 ## Los comandos {#ac3}
 
-bc..\
+```sh
 cd domains/drupalsite.com/html\
 mkdir respaldos\
 mkdir respaldos/2013-04-18\
@@ -46,6 +42,7 @@ mv html_new html\
 chmod -R 755 html_old\
 rm -rf html_old\
 rm drupal-\*
+```
 
 En este caso muestro la secuencia para respaldar y actualizar en un servidor (gs) de mediatemple. Para hacerlo en otro servidor hay que hacer los ajustes de direcciones.
 

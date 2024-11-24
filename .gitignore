@@ -7,4 +7,5 @@
 
 # default hugo output dir and other stuff
 /public
+/resources
 .hugo_build.lock
