@@ -3,9 +3,9 @@ author = "B. Agustín Amenábar L."
 title = "Code Blog"
 theme                   = "future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 15
 pluralizeListTitles     = false
 disableLanguages        = [""]
+ignoreLogs = ['warning-goldmark-raw-html']
 
 disqusShortname = ""
 googleAnalytics = "UA-23469330-1"
@@ -101,6 +101,11 @@ googleAnalytics = "UA-23469330-1"
       recaptcha         = false
       siteKey           = "" # Site Key
       encryptedKey      = ""
+
+[pagination]
+  disableAliases = false
+  pagerSize = 15
+  path = 'page'
 
 [menu]
   # Sets the menu items in the navigation bar

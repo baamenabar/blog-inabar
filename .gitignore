@@ -1,3 +1,10 @@
-# default hugo output dir
-/public
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 
+# default hugo output dir and other stuff
+/public
+.hugo_build.lock
