@@ -1,9 +1,10 @@
-title:Remote working: our experience with Sqwiggle\
-subtitle:Remote working is made easier than expected with the right tools.\
-classes: language-markup\
-lang: en\
-startDate:2014-08-26T11:06:17+00:00\
-pubDate:2014-09-23T15:26:19+00:00
+---
+title: "Remote working: our experience with Sqwiggle"
+summary: "Remote working is made easier than expected with the right tools."
+classes: language-markup
+lang: en
+date: 2014-09-23T15:26:19+00:00
+---
 
 <header>
 <hgroup>

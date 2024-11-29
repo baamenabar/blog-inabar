@@ -8,7 +8,7 @@ tags: ["php", "drupal", "short"]
 
 # Actualizar Drupal usando SSH
 
-## Lista de comandos para hacer copy paste y una pequeña explicación.
+## Lista de comandos para hacer copy paste y una pequeña explicación
 
 Muchas veces es una lata descargar un archivo, descomprimirlo, subirlo por FTP, arrastrar archivos y carpetas de un lado para otro para actualizar el core de Drupal 7. Y como dicen que un buen programador es flojo, pues aquí pego la secuencia de comandos que uso para respaldar y actualizar el core de Drupal 7, usando SSH.
 
@@ -16,9 +16,9 @@ Muchas veces es una lata descargar un archivo, descomprimirlo, subirlo por FTP, 
 
 Lo que debes tener es:
 
--   Acceso SSH a tu servidor.
--   Línea de comando para acceder, yo uso PuTTY (en Mac y Linux se usa la línea de comando).
--   Tener los datos de la base de datos (servidor, nombre, usuario, contraseña)
+- Acceso SSH a tu servidor.
+- Línea de comando para acceder, yo uso PuTTY (en Mac y Linux se usa la línea de comando).
+- Tener los datos de la base de datos (servidor, nombre, usuario, contraseña)
 
 ## Los comandos {#ac3}
 
@@ -48,5 +48,5 @@ En este caso muestro la secuencia para respaldar y actualizar en un servidor (gs
 
 ## Referencia {#ac5}
 
--   [Upgrading Drupal rapidly using SSH/Shell commands](http://drupal.org/node/297496)
--   [Export and Import MySQL Databases on Mediatemple](https://kb.mediatemple.net/questions/129/Export+and+import+MySQL+databases#gs/method2-export)
+- [Upgrading Drupal rapidly using SSH/Shell commands](http://drupal.org/node/297496)
+- [Export and Import MySQL Databases on Mediatemple](https://kb.mediatemple.net/questions/129/Export+and+import+MySQL+databases#gs/method2-export)
